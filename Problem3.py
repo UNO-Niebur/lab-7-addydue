@@ -3,7 +3,8 @@
 #Addy Duering
 #3/8/26
 #Lab 7
-# My approach is to find all prime factors and return the largest one.
+# My approach is to make a function that tests the factors with my 
+# isPrime function and filters them to find the largest.
 
 from NumberTests import isPrime
 
