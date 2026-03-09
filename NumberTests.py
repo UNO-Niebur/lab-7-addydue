@@ -10,6 +10,12 @@ def isThreeOrFive(n):
 
 def isPrime(p):
   """Returns boolean (True/False) if the value given is prime."""
+  if p < 2:
+    return False
+
+  for i in range(2, p):
+    if p % i == 0:
+      return False
 
   return True
 
